@@ -15,9 +15,9 @@
 
 ## 1. Preámbulo
 
-La trivia es un tipo de juego, generalmente en el marco de un concurso, en el
+La trivia es un tipo de juego, generalmente en el marco de un concurso,
 que se plantea una serie de preguntas cuyas respuestas deben ser escogidas entre
-diferentes opciones.
+diferentes .
 
 En la actualidad, con lo extendido del uso de smartphones, sus aplicaciones, y
 el acceso a Internet, existen muchas posibilidades de participar de una trivia
@@ -29,18 +29,16 @@ incluso, ofrecen dinero como recompensa.
 
 ## 2. Resumen del proyecto
 
-¿Qué tengo que hacer exactamente? En este proyecto tendrás que construir una
-aplicación web que le permita a un usuario responder distintas preguntas
-escogiendo sus respuestas de una lista de alternativas.
+**¿Qué tengo que hacer exactamente?** Como es obvio, construirás la aplicación
+_Web_ de una _trivia_.
 
-La temática es libre. Tú debes crear la mejor trivia que puedas y luego pensar
-en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes,
-colores, ¿marca?) etc.
+El objetivo principal de este proyecto es que tengas una primera experiencia
+desarrollando aplicaciones _Web_ (WebApp) que interactúen con la usuaria a
+través del navegador, utilizando HTML, CSS y JavaScript.
 
-El objetivo principal de este proyecto es, tener una primera experiencia
-desarrollando aplicaciones web (WebApp) que interactúen con el usuario a
-través del navegador y la lógica, utilizando HTML, CSS y JavaScript como
-herramientas.
+La temática es libre, decídela rápidamente y luego piensa en cómo debe ser la
+experiencia para tus usuarias. Piensa en las pantallas, el flujo, los mensajes,
+colores, etc.
 
 ## 3. Objetivos de aprendizaje
 
@@ -152,100 +150,196 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ## 4. Consideraciones generales
 
-* Este proyecto se debe resolver en duplas.
-* Tiempo para completarlo: Toma como referencia 3 días. Trata de fijar un
-estimado de cuándo lo terminarás.
+* Este proyecto se debe trabajar en duplas.
+* Debes preocuparte de que ambas puedan hacer y aprender de todo. Acá no sirve
+eso de "tú haces el HTML y CSS y yo hago el JavaScript". El objetivo es aprender,
+no "terminar y entregar".
+* Completar el proyecto **no es un requisito para ser admitida al _bootcamp_**.
+* Queremos verte aprender lo que aún no sabes. Sé transparente para que podamos
+entender tu proceso de aprendizaje y no solamente ver el resultado final.
 
-## 5. Criterios de aceptación mínimos del proyecto
 
-Los criterios que deberás considerar para saber si has completado este proyecto
-son:
+## 5. Recomendaciones
+### 5.1. Prototipo.
+Algo que siempre ayuda a poner “en concreto” lo que tienes en mente, es hacer un
+simple prototipo en papel y lápiz **de todo el proyecto**. Dibujar es un proceso
+rápido que permite entender cómo, cuándo y dónde suceden las cosas;
+dónde exactamente debe decir tal o cual cosa, qué pasa si la usuaria hace A o B,
+dónde debe hacer _click_, qué información exactamente quieres mostrarle, etc.
+**Dedica un máximo de dos horas a esto antes de ponerte a codear**.
 
-### Definición del producto
+### 5.2. No postergues lo que no sabes hacer, comienza por ahí
+No gastes horas embelleciendo tus prototipos o haciendo logotipos teniendo la
+sensación de que estás “avanzando”. Es natural que tengas el impulso de hacerlo,
+es tu cerebro pidiendo su dosis de **satisfacción inmediata**. No te dejes engañar
+por la “ilusión” del avance, **tu objetivo es aprender**. Enfréntate a lo que no
+sabes lo más pronto posible, es el único camino para aprender.
 
-Documenta brevemente tu trabajo en el archivo `README.md` de tu repositorio,
-contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve
-el problema (o problemas) que tiene tu usuario.
+### 5.3. Aprender por encima de completar el proyecto
+Evita la tentación de copiar y pegar código que “funcione” para ir completando
+el proyecto sin entender cómo ni por qué funciona. Prefiere siempre hacer poco
+pero que entiendes y puedes explicar, antes que mucho que funciona a
+medias y/o que no sabes bien cómo ni por qué funciona.
 
-### Diseño de la Interfaz de Usuario
+### 5.4. Achicar el gran problema en problemas más pequeños
+Un "superpoder" que esperamos puedas desarrollar durante el _bootcamp_ es el de
+definir "micro-proyectos" que te acerquen paso a paso, pero de manera transversal,
+a la solución del "gran proyecto".  Podríamos decir que es algo así como comenzar
+armando un rompecabezas/_puzzle_ por las esquinas o bordes sin saber necesariamente
+cómo encajarán al final. Déjate llevar y explora libremente, no tienes que saberlo
+todo antes de comenzar.
 
-#### Prototipo de baja fidelidad
+Más adelante te daremos algunas sugerencias como ejemplo.
 
-Durante tu trabajo deberás haber hecho e iterado bocetos (_sketches_) de tu
-solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
-iteraciones que hagas, que las subas a tu repositorio y las menciones en tu
-`README.md`.
+## 6. Alcance del proyecto
+Reconocemos y valoramos la diversidad por encima de muchas otras cosas. Sabemos
+que cada una de ustedes sabe un poco más o un poco menos de Desarrollo Web;
+también sabemos que cada una aprende distinto, a diferente ritmo. **No esperamos
+que todas completen los 3 hitos**.
 
-### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
+Te proponemos trabajar en "hitos" o etapas incrementales. No trabajes como su
+fuera una fábrica haciendo tooooooooooooooooooooooooodo el HTML y CSS de todas
+las pantallas que imaginaste para luego comenzar con el JavaScript y la funcionalidad.
+El riesgo es que consigas muchas partes sin ninguna funcionalidad o a medias;
+tampoco hagas lo inverso, un montón de funcionalidad en la consola pero que no
+tiene una interfaz para ser utilizada por una usuaria no-_developer_.
 
-Luego de diseñar tu interfaz de usuario deberás trabajar en su implementación.
-**No** es necesario que construyas la interfaz exactamente como la diseñaste.
-No tienes tiempo ilimitado para trabajar, así es que deberás priorizar.
+La siguiente metáfora te puede ayudar a comprender mejor la idea.
+![AGILE](https://miro.medium.com/max/1400/1*qINsG4WH_BDN-viMJUH6Ng.png)
 
-El [MVP](https://www.youtube.com/watch?v=0Dn-BHj6l2E) (producto mínimo viable)
-de tu implementación debe:
+Esas etapas, desde la patineta hasta el auto, es a lo que llamaremos "hitos".
+Eres libre de seguir esta recomendación o trabajar como tú prefieras. Quizás te
+se útil si recién estás comenzando a aprender de Desarrollo Web, tu decides.
 
-1. Mostrar una pantalla de bienvenida, pida tu nombre para comenzar a jugar.
-2. Mostrar un mensaje de Hola [tu nombre] y dos botones para comenzar a jugar.
-   - Jugar con preguntas de tipo A (Por ejemplo: sobre comida)
-   - Jugar con preguntas de tipo B (Por ejemplo: sobre cervezas)
-3. Lanzar la pregunta 1 con alternativas, el usuario responde, luego se muestra
-   la pregunta 2 y luego la 3.
-4. Mostrar una pantalla de resultados (respuestas correctas) y dos botones de
-   volver a jugar:
-   - Jugar con preguntas de tipo A (Por ejemplo: sobre comida)
-   - Jugar con preguntas de tipo B (Por ejemplo: sobre cervezas)
+-----------
+### Hito 1
+La versión más simple de una _trivia_.
+- 1 sola pantalla o vista.
+- 2 preguntas con, al menos, 3 alternativas de respuesta cada una.
+- 1 botón para responder y ver cuál era la alternativa correcta.
+- No te dice si acertaste o no, sólo te dice cuál alternativa era la correcta.
 
-## 6. Hacker edition
+<details>
+<summary>Sugerencia de micro-proyecto A</summary>
 
-Si **terminaste** con todo lo anterior y te queda tiempo, intenta explorar y
-completar lo siguiente:
+##### Solamente el "esqueleto" estático
+- Dos preguntas con sus respectivas alternativas de respuesta en forma de
+_radio buttons_ (🔘)
+- El botón para “Responder y ver resultados”.
 
-* Agregar una cuenta regresiva con un tiempo límite para responder cada pregunta.
-* Subir tu código a GitHub (commit/push) y desplegar la interfaz usando GitHub
-pages.
+##### Aprenderás:
+Cómo construir una página básica HTML con elementos de formulario.
+</details>
 
-## 7. Consideraciones técnicas
+<details>
+<summary>Sugerencia de micro-proyecto B</summary>
 
-La lógica del proyecto debe estar implementada completamente en JS, HTML y CSS
-En este proyecto NO está permitido usar librerías o frameworks,
-solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
+##### Prueba darle algo de interacción
+Cuando la usuaria dé _click_ en alguno de los _radio button_, muéstrale un
+mensaje de alerta (_alert_) en el navegador que contenga el valor (texto) del
+_radio button_ cliqueado.
 
-### `src/index.html`
+**Pista**: Para mostrar un mensaje de alerta básico hay una función de JavaScript
+llamada “_alert_”. Esta función puede “escuchar” eventos del navegador como
+_click_ y hacer algo cuando suceda usando _onclick_ o _addEventListener_.
 
-Acá va la página que se mostrará al usuario, también nos sirve para indicar
-qué script se usará y unir todo lo que hemos hecho.
+##### Aprenderás:
+- Detectar eventos en el navegador (los _clicks_ de la usuaria) y hacer algo
+cuando sucedan.
+- Identificar los elementos HTML que hay en el navegador y obtener sus valores
+y/o estados.
 
-Encontrarás 1 etiqueta inicial, la cual si deseas puedes borrar y empezar de
-cero:
+</details>
+<details>
+<summary>Sugerencia de micro-proyecto C</summary>
 
-```html
- <div id="root"></div>
-```
+##### Prueba darle algo de interacción más parecida a la que necesitas
+En lugar de mostrar el valor de cada _radio button_ cuando se le hace _click_,
+que solamente se marque la opción seleccionada y se muestre el _alert_ con  
+los valores de los _radio button_ seleccionados cuando haga _click_ en
+el botón “Responder y ver resultados”.
 
-### `src/style.css`
+##### Aprenderás:
+- Detectar eventos en el navegador (los clicks del usuario).
+- Identificar los elementos HTML que hay en el navegador y obtener sus valores/estados.
 
-Este archivo debe contener las reglas de estilo. Queremos que escribas tus
-propias reglas, por eso NO está permitido el uso de frameworks de CSS
-(Bootstrap, materialize, etc).
+</details>
 
-### `src/main.js`
+-----------
+### Hito 2
+Agrega una pantalla simple de bienvenida:
+-  Tiene una caja de texto (_input text_) en la que escribe su nombre quien juega.
+- Un botón de "jugar" o "comenzar" para ir a las preguntas.
+- Esta vez deberán haber al menos 3 preguntas con sus respectivas alternativas
+de respuesta.
+- Antes de las peguntas debe decir "Hola [el nombre que se escribió en la
+pantalla de bienvenida]"
+- El botón de responder muestra la alternativa correcta para cada pregunta y,
+además, muestra si cada una de las respuestas fue correcta o incorrecta.
+- Un botón para volver a jugar que vuelve a la pantalla inicial en la que se
+pide el nombre.
 
-Acá escribirás todo el código que tenga que ver con la interacción del DOM
-(seleccionar, actualizar y manipular elementos del DOM y eventos), entre otras
-funciones que sean necesarias para actualizar el resultado en la pantalla (UI).
+<details>
+<summary>Sugerencia de micro-proyecto A</summary>
 
-## 8. Pistas, tips y lecturas complementarias
+##### Evaluando las respuestas de tu usuaria
+Evalúa si las respuestas seleccionadas son correctas o incorrectas. Para hacerlo,
+elige una de las alternativas de la pregunta 1 como la respuesta “correcta”.
+Al dar _click_ en el botón “Responder y ver resultados”  muestra un _alert_  
+que diga “Respuesta correcta” o “Respuesta incorrecta” según corresponda.
 
-### Primeros pasos
+**Pistas:** Lee sobre condicionales y control de flujo (IF, ELSE).
+
+##### Aprenderás:
+- Identificar los elementos HTML que hay en el navegador y obtener sus
+valores/estados.
+- Comparar los valores/estados de los elementos y hacer algo según el
+resultado que obtengas de la comparación/evaluación.
+
+
+</details>
+
+-----------
+
+### Hito 3
+- Permítele a la usuaria elegir entre 2 tipos de preguntas después de escribir
+su nombre y antes de ir a responder.
+Por ejemplo, unas sobre comida y otras sobre cervezas.
+- Agrega un puntaje a preguntas correctas e incorrectas y muestra un puntaje
+total al final.
+
+-----------
+
+Si hiciste todo lo anterior y tienes un poco más de tiempo, decide qué más
+quisieras hacer para mejorar tu proyecto. Podrías, por ejemplo, agregar una
+cuenta regresiva con un tiempo límite para responder a las preguntas. Puedes
+subir tu código a un repositorio de GitHub y publicar tu aplicación _Web en
+GitHub Pages y compartir la URL con quien quieras.
+
+Independientemente de hasta qué hito alcances a hacer, asegúrate de documentar
+**brevemente** tu trabajo en un documento de Google o el archivo `README.md`
+de tu repositorio. Cuéntanos un poco cómo fue tu proceso de diseño de la
+experiencia de uso y cómo crees que resuelve el la necesidad (o "problema") que
+tiene tu usuaria. Incluye algunas imágenes de tus prototipos en papel y lápiz
+que nos ayuden a entender el proceso, no el resultado. ¿Fuiste cambiando cosas
+en el camino?, ¿cuáles?, ¿por qué?.
+
+## 7. Ambiente de trabajo y lecturas complementarias
+
+### Prepara tu ambiente de trabajo
+#### Si estás dando tus primeros pasos en el Desarrolo Web:
+Quizás prefieras trabajar con alguna herramienta de edición de código en línea
+como [Codepen](https://codepen.io/pen/) o [Replit](https://replit.com/).
+
+#### Si ya tienes cierta experiencia y vas a trabajar con un repositorio de código:
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
    condiciones, algo como [Atom](https://atom.io/) o
    [Visual Studio Code](https://code.visualstudio.com/).
-2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](https://curriculum.laboratoria.la/es/topics/shell),
+2. Para ejecutar los comandos a continuació el link de tu proyecto en ln necesitarás una :shell:
+   [UNIX Shell](../../topics/shell),
    que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](https://curriculum.laboratoria.la/es/topics/scm/01-git)
+   interpreter) así como tener [git](../../topics/scm/01-git)
    instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
    ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
@@ -255,7 +349,6 @@ funciones que sean necesarias para actualizar el resultado en la pantalla (UI).
    darán acceso de lectura en ese repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu *fork* a tu computadora (copia local).
-5. A codear se ha dicho! :rocket:
 
 ### Recursos y temas relacionados
 
@@ -282,3 +375,44 @@ funciones que sean necesarias para actualizar el resultado en la pantalla (UI).
 * [Scrum en menos de 2 minutos](https://www.youtube.com/watch?v=TRcReyRYIMg)
 * [Scrum en Detalle](https://youtu.be/nOlwF3HRrAY). No
   esperamos que hagas todo eso desde este proyecto.
+
+####  Entrega
+
+* Todo tu proyecto debe estar como entregable en un link funcional, puede ser el link de tu repositorio de github o el link de tu proyecto en linea ya sea  [Replit](https://repl.it), [Codepen](https://codepen.io/pen/) o [CodeSandbox](https://codesandbox.io/)
+
+## 8. Consideraciones técnicas
+
+La lógica del proyecto debe estar implementada completamente en JS, HTML y CSS
+En este proyecto NO está permitido usar librerías o frameworks,
+solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
+
+Este _boilerplate_ (plantilla de proyecto en el repositorio de GitHub) contiene
+tres archivo, eres libre agregar o quitar archivos/carpetas. **Si usas un editor
+de código en línea como Codepen o Replit omite este punto.**
+
+### `src/index.html`
+
+Acá va la página que se mostrará al usuario, también nos sirve para indicar
+qué script se usará y unir todo lo que hemos hecho.
+
+Encontrarás 1 etiqueta inicial, la cual si deseas puedes borrar y empezar de
+cero:
+
+```html
+ <div id="root"></div>
+```
+
+### `src/style.css`
+
+Este archivo debe contener las reglas de estilo. Queremos que escribas tus
+propias reglas, por eso NO está permitido el uso de frameworks de CSS
+(Bootstrap, materialize, etc).
+
+### `src/main.js`
+
+Acá escribirás todo el código que tenga que ver con la interacción del DOM
+(seleccionar, actualizar y manipular elementos del DOM y eventos), entre otras
+funciones que sean necesarias para actualizar el resultado en la pantalla (UI).
+
+A codear se ha dicho! 
+
