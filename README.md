@@ -8,8 +8,8 @@
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Recomendaciones](#5-recomendaciones)
 * [6. Alcance del proyecto](#6-alcance-del-proyecto)
-* [7. Ambiente de trabajo y lecturas complementarias](#8-ambiente-de-trabajo-y-lecturas-complementarias)
-* [8. Consideraciones técnicas](#7-consideraciones-técnicas)
+* [7. Ambiente de trabajo y lecturas complementarias](#7-ambiente-de-trabajo-y-lecturas-complementarias)
+* [8. Consideraciones técnicas](#8-consideraciones-técnicas)
 
 
 ***
