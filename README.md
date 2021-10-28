@@ -6,10 +6,11 @@
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [5. Recomendaciones](#5-recomendaciones)
+* [6. Alcance del proyecto](#6-alcance-del-proyecto)
+* [7. Ambiente de trabajo y lecturas complementarias](#8-ambiente-de-trabajo-y-lecturas-complementarias)
+* [8. Consideraciones técnicas](#7-consideraciones-técnicas)
+
 
 ***
 
@@ -354,14 +355,13 @@ como [Codepen](https://codepen.io/pen/) o [Replit](https://replit.com/).
 
 #### Diseño de experiencia de usuario (User Experience Design)
 
-* Ideación
-* Prototipado (sketching)
+* [Blog sobre diseño de experiencia de usuario](https://medium.com/laboratoria/qu%C3%A9-es-ser-una-ux-designer-f81fbc45a44c)
 
 #### Desarrollo Front-end
 
-* Tipos de valores
-* Declaración de variables
-* Control de flujo
+* [Tipos de valores](https://lms.laboratoria.la/cohorts/scl-2021-09-prebootcamp-js-scl020/topics/javascript/01-basics/01-values-variables-and-types)
+* [Declaración de variables](https://lms.laboratoria.la/cohorts/scl-2021-09-prebootcamp-js-scl020/topics/javascript/01-basics/02-variables)
+* [Control de flujo](https://lms.laboratoria.la/cohorts/scl-2021-09-prebootcamp-js-scl020/topics/javascript/02-flow-control/00-opening)
 
 #### Herramientas
 
