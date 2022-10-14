@@ -22,6 +22,7 @@ section{
   border-radius: 50px;
   padding: 10px;
   margin: 10px;
+  position: relative;
   }
   
 label{
@@ -38,11 +39,28 @@ label:hover{
 }
 
 button{
-  border: 2px solid #0a0a0a;
+  border: 2 px solid #0a0a0a;
   border-radius: 10px;
   padding: 30px;
   margin: 10px;
 }
 
+#body {
+  width: 400px;
+  height: 400px;
+  
+}
+#p1{
+  width: 600px;
+  height: 400px;
+  background-color: #feb139;
+}
+
+#img{
+  width: 10px;
+  height: 10px;
+  position: relative;
+  padding: px;
+}
 /* hasta aqui va bien el css, ahora toda la energía en descubrir como hacer funcionar el js para interactuar con la pregunta 1 y si nos resulta lo replicamos en las demás preguntas de la trivia*/
   
