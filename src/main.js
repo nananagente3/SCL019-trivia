@@ -54,3 +54,4 @@ function p3siguiente(){
     function inicio(){
         window.location="index.html";
     }
+    

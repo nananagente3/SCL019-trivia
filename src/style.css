@@ -53,14 +53,18 @@ button{
 #p1{
   width: 600px;
   height: 400px;
-  background-color: #feb139;
+  background-color: #fe39ee;
 }
 
-#img{
-  width: 10px;
-  height: 10px;
-  position: relative;
-  padding: px;
-}
+
+#fotosPerritos{
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  
+ }
+
+  
+
 /* hasta aqui va bien el css, ahora toda la energía en descubrir como hacer funcionar el js para interactuar con la pregunta 1 y si nos resulta lo replicamos en las demás preguntas de la trivia*/
   
