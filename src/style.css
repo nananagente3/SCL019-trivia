@@ -61,10 +61,27 @@ button{
   width: 200px;
   height: 100px;
   text-align: center;
+  border-radius: 10px;
   
  }
 
-  
+ body {
+  font-family: Arial, Helvetica, Sans-serif;
+  color: white;
+  background-color: rgb(12, 12, 87);
+  font-size: 20px;
+}
+
+.contenido{
+  font-size: 80%;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+p {
+  font-family: 'Courier New', Courier, monospace;
+}
 
 /* hasta aqui va bien el css, ahora toda la energía en descubrir como hacer funcionar el js para interactuar con la pregunta 1 y si nos resulta lo replicamos en las demás preguntas de la trivia*/
   
